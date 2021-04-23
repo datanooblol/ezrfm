@@ -8,7 +8,7 @@ setup(
   author = 'pathompol',
   author_email = 'data.noob.lol@gmail.com',
   url = 'https://github.com/datanooblol/ezrfm',
-  download_url = 'https://github.com/joelbarmettlerUZH/Scrapeasy/archive/pypi-0_1_3.tar.gz',
+  download_url = 'https://github.com/datanooblol/ezrfm/archive/refs/tags/v0.1.tar.gz',
   keywords = ['ez','rfm'],
   install_requires=[
           'numpy',
@@ -34,5 +34,6 @@ setup(
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7'
   ],
 )
