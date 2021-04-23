@@ -2,14 +2,14 @@ from distutils.core import setup
 setup(
   name = 'ezrfm',
   packages = ['ezrfm'],
-  version = '0.02',
+  version = '0.2',
   license='MIT',
   description = 'Prep and RFM made EZ',
   author = 'pathompol',
   author_email = 'data.noob.lol@gmail.com',
   url = 'https://github.com/datanooblol/ezrfm',
   # check url everytime you release new version
-  download_url = 'https://github.com/datanooblol/ezrfm/archive/refs/tags/v0.1.tar.gz',
+  download_url = 'https://github.com/datanooblol/ezrfm/archive/refs/tags/v0.2.tar.gz',
   keywords = ['ez','rfm','prep'],
   # dependencies used in your library
   install_requires=[

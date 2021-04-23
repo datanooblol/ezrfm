@@ -2,4 +2,5 @@
 setup.cfg
 setup.py
 ezrfm\__init__.py
+ezrfm\ezprep.py
 ezrfm\ezrfm.py
