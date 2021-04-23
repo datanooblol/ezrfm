@@ -1,12 +1,16 @@
 import pandas as pd
 import numpy as np
 
-class RFM:
+class EZRFM:
     def __init__(self, data):
         self.raw_data = data
         self.data_model = None
         self.init_df = None
         self.prep_data = None
+    
+    @property
+    def hello_world(self):
+        print("You're now with EZRFM!!")
     
     def get_data_model(self, customerID, orderID, orderDate, qty, spend):
         named_df = self.raw_data.rename(columns={
